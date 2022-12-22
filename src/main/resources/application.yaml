@@ -1,0 +1,9 @@
+server:
+  port: 8080
+app:
+  rest:
+    cadrs: 'http://localhost:8081/cards'
+    accounts: 'http://localhost:8082/accounts'
+    deposits: 'http://localhost:8083/deposits'
+    investment: 'http://localhost:8084/investment'
+    balance: 'http://localhost:8085/balance'
